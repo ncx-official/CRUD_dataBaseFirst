@@ -1,0 +1,907 @@
+*[11/1/2022 8:23:25 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:23:26 AM] New connection;
+
+
+**[11/1/2022 8:23:26 AM] sql query 'show tables from BuildingMaterials_store;' - executed (DONE);
+
+
+*[11/1/2022 8:23:26 AM] Connection closed;
+
+
+*[11/1/2022 8:23:32 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:23:32 AM] New connection;
+
+
+**[11/1/2022 8:23:32 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_phone'' - executed (DONE);
+
+
+**[11/1/2022 8:23:32 AM] sql query 'SHOW COLUMNS FROM store_phone ;' - executed (DONE);
+
+
+**[11/1/2022 8:23:32 AM] sql query 'SELECT * FROM store_phone;' - executed (DONE);
+
+
+*[11/1/2022 8:23:32 AM] Connection closed;
+
+
+[11/1/2022 8:23:32 AM] Table changed;
+
+
+*[11/1/2022 8:23:37 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+**[11/1/2022 8:23:37 AM] sql query 'INSERT INTO store_phone ( phone_value) VALUES ( NULL)' - executed (DONE);
+
+
+*[11/1/2022 8:23:37 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:23:37 AM] New connection;
+
+
+**[11/1/2022 8:23:37 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_phone'' - executed (DONE);
+
+
+**[11/1/2022 8:23:37 AM] sql query 'SHOW COLUMNS FROM store_phone ;' - executed (DONE);
+
+
+**[11/1/2022 8:23:37 AM] sql query 'SELECT * FROM store_phone;' - executed (DONE);
+
+
+*[11/1/2022 8:23:37 AM] Connection closed;
+
+
+*[11/1/2022 8:23:41 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+**[11/1/2022 8:23:41 AM] sql query 'DELETE FROM store_phone WHERE id_store_phone='2'' - executed (DONE);
+
+
+*[11/1/2022 8:23:41 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:23:41 AM] New connection;
+
+
+**[11/1/2022 8:23:41 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_phone'' - executed (DONE);
+
+
+**[11/1/2022 8:23:41 AM] sql query 'SHOW COLUMNS FROM store_phone ;' - executed (DONE);
+
+
+**[11/1/2022 8:23:41 AM] sql query 'SELECT * FROM store_phone;' - executed (DONE);
+
+
+*[11/1/2022 8:23:41 AM] Connection closed;
+
+
+*[11/1/2022 8:23:43 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:23:43 AM] New connection;
+
+
+**[11/1/2022 8:23:43 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'person_sex'' - executed (DONE);
+
+
+**[11/1/2022 8:23:43 AM] sql query 'SHOW COLUMNS FROM person_sex ;' - executed (DONE);
+
+
+**[11/1/2022 8:23:43 AM] sql query 'SELECT * FROM person_sex;' - executed (DONE);
+
+
+*[11/1/2022 8:23:43 AM] Connection closed;
+
+
+[11/1/2022 8:23:43 AM] Table changed;
+
+
+*[11/1/2022 8:23:46 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+**[11/1/2022 8:23:50 AM] sql query 'INSERT INTO person_sex ( sex_value) VALUES ( NULL)' - SQL statement run error (BAD)
+Column 'sex_value' cannot be null;
+
+
+*[11/1/2022 8:23:53 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:23:53 AM] New connection;
+
+
+**[11/1/2022 8:23:53 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'person'' - executed (DONE);
+
+
+**[11/1/2022 8:23:53 AM] sql query 'SHOW COLUMNS FROM person ;' - executed (DONE);
+
+
+**[11/1/2022 8:23:53 AM] sql query 'SELECT * FROM person;' - executed (DONE);
+
+
+*[11/1/2022 8:23:53 AM] Connection closed;
+
+
+[11/1/2022 8:23:53 AM] Table changed;
+
+
+*[11/1/2022 8:23:59 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:23:59 AM] New connection;
+
+
+**[11/1/2022 8:23:59 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'operation_type'' - executed (DONE);
+
+
+**[11/1/2022 8:23:59 AM] sql query 'SHOW COLUMNS FROM operation_type ;' - executed (DONE);
+
+
+**[11/1/2022 8:23:59 AM] sql query 'SELECT * FROM operation_type;' - executed (DONE);
+
+
+*[11/1/2022 8:23:59 AM] Connection closed;
+
+
+[11/1/2022 8:23:59 AM] Table changed;
+
+
+*[11/1/2022 8:24:01 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:01 AM] New connection;
+
+
+**[11/1/2022 8:24:01 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'operation_product'' - executed (DONE);
+
+
+**[11/1/2022 8:24:01 AM] sql query 'SHOW COLUMNS FROM operation_product ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:01 AM] sql query 'SELECT * FROM operation_product;' - executed (DONE);
+
+
+*[11/1/2022 8:24:01 AM] Connection closed;
+
+
+[11/1/2022 8:24:01 AM] Table changed;
+
+
+*[11/1/2022 8:24:07 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:07 AM] New connection;
+
+
+**[11/1/2022 8:24:07 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'operation'' - executed (DONE);
+
+
+**[11/1/2022 8:24:07 AM] sql query 'SHOW COLUMNS FROM operation ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:07 AM] sql query 'SELECT * FROM operation;' - executed (DONE);
+
+
+*[11/1/2022 8:24:07 AM] Connection closed;
+
+
+[11/1/2022 8:24:07 AM] Table changed;
+
+
+*[11/1/2022 8:24:17 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:17 AM] New connection;
+
+
+**[11/1/2022 8:24:17 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'authorization'' - executed (DONE);
+
+
+**[11/1/2022 8:24:17 AM] sql query 'SHOW COLUMNS FROM authorization ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:17 AM] sql query 'SELECT * FROM authorization;' - executed (DONE);
+
+
+*[11/1/2022 8:24:17 AM] Connection closed;
+
+
+[11/1/2022 8:24:17 AM] Table changed;
+
+
+*[11/1/2022 8:24:19 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:19 AM] New connection;
+
+
+**[11/1/2022 8:24:19 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'class'' - executed (DONE);
+
+
+**[11/1/2022 8:24:19 AM] sql query 'SHOW COLUMNS FROM class ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:19 AM] sql query 'SELECT * FROM class;' - executed (DONE);
+
+
+*[11/1/2022 8:24:19 AM] Connection closed;
+
+
+[11/1/2022 8:24:19 AM] Table changed;
+
+
+*[11/1/2022 8:24:20 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:20 AM] New connection;
+
+
+**[11/1/2022 8:24:20 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'employee'' - executed (DONE);
+
+
+**[11/1/2022 8:24:20 AM] sql query 'SHOW COLUMNS FROM employee ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:20 AM] sql query 'SELECT * FROM employee;' - executed (DONE);
+
+
+*[11/1/2022 8:24:20 AM] Connection closed;
+
+
+[11/1/2022 8:24:20 AM] Table changed;
+
+
+*[11/1/2022 8:24:20 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:20 AM] New connection;
+
+
+**[11/1/2022 8:24:20 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'operation'' - executed (DONE);
+
+
+**[11/1/2022 8:24:20 AM] sql query 'SHOW COLUMNS FROM operation ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:20 AM] sql query 'SELECT * FROM operation;' - executed (DONE);
+
+
+*[11/1/2022 8:24:20 AM] Connection closed;
+
+
+[11/1/2022 8:24:20 AM] Table changed;
+
+
+*[11/1/2022 8:24:21 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:21 AM] New connection;
+
+
+**[11/1/2022 8:24:21 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'operation_product'' - executed (DONE);
+
+
+**[11/1/2022 8:24:21 AM] sql query 'SHOW COLUMNS FROM operation_product ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:21 AM] sql query 'SELECT * FROM operation_product;' - executed (DONE);
+
+
+*[11/1/2022 8:24:21 AM] Connection closed;
+
+
+[11/1/2022 8:24:21 AM] Table changed;
+
+
+*[11/1/2022 8:24:22 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:22 AM] New connection;
+
+
+**[11/1/2022 8:24:22 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'operation_type'' - executed (DONE);
+
+
+**[11/1/2022 8:24:22 AM] sql query 'SHOW COLUMNS FROM operation_type ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:22 AM] sql query 'SELECT * FROM operation_type;' - executed (DONE);
+
+
+*[11/1/2022 8:24:22 AM] Connection closed;
+
+
+[11/1/2022 8:24:22 AM] Table changed;
+
+
+*[11/1/2022 8:24:22 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:22 AM] New connection;
+
+
+**[11/1/2022 8:24:22 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'person'' - executed (DONE);
+
+
+**[11/1/2022 8:24:22 AM] sql query 'SHOW COLUMNS FROM person ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:22 AM] sql query 'SELECT * FROM person;' - executed (DONE);
+
+
+*[11/1/2022 8:24:22 AM] Connection closed;
+
+
+[11/1/2022 8:24:22 AM] Table changed;
+
+
+*[11/1/2022 8:24:22 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:22 AM] New connection;
+
+
+**[11/1/2022 8:24:22 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'product'' - executed (DONE);
+
+
+**[11/1/2022 8:24:22 AM] sql query 'SHOW COLUMNS FROM product ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:22 AM] sql query 'SELECT * FROM product;' - executed (DONE);
+
+
+*[11/1/2022 8:24:23 AM] Connection closed;
+
+
+[11/1/2022 8:24:23 AM] Table changed;
+
+
+*[11/1/2022 8:24:23 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:23 AM] New connection;
+
+
+**[11/1/2022 8:24:23 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'person_sex'' - executed (DONE);
+
+
+**[11/1/2022 8:24:23 AM] sql query 'SHOW COLUMNS FROM person_sex ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:23 AM] sql query 'SELECT * FROM person_sex;' - executed (DONE);
+
+
+*[11/1/2022 8:24:23 AM] Connection closed;
+
+
+[11/1/2022 8:24:23 AM] Table changed;
+
+
+*[11/1/2022 8:24:24 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:24 AM] New connection;
+
+
+**[11/1/2022 8:24:24 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'product'' - executed (DONE);
+
+
+**[11/1/2022 8:24:24 AM] sql query 'SHOW COLUMNS FROM product ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:24 AM] sql query 'SELECT * FROM product;' - executed (DONE);
+
+
+*[11/1/2022 8:24:24 AM] Connection closed;
+
+
+[11/1/2022 8:24:24 AM] Table changed;
+
+
+*[11/1/2022 8:24:25 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:25 AM] New connection;
+
+
+**[11/1/2022 8:24:25 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'schedule_open'' - executed (DONE);
+
+
+**[11/1/2022 8:24:25 AM] sql query 'SHOW COLUMNS FROM schedule_open ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:25 AM] sql query 'SELECT * FROM schedule_open;' - executed (DONE);
+
+
+*[11/1/2022 8:24:25 AM] Connection closed;
+
+
+[11/1/2022 8:24:25 AM] Table changed;
+
+
+*[11/1/2022 8:24:25 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:25 AM] New connection;
+
+
+**[11/1/2022 8:24:25 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store'' - executed (DONE);
+
+
+**[11/1/2022 8:24:25 AM] sql query 'SHOW COLUMNS FROM store ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:25 AM] sql query 'SELECT * FROM store;' - executed (DONE);
+
+
+*[11/1/2022 8:24:25 AM] Connection closed;
+
+
+[11/1/2022 8:24:25 AM] Table changed;
+
+
+*[11/1/2022 8:24:26 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:26 AM] New connection;
+
+
+**[11/1/2022 8:24:26 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_address'' - executed (DONE);
+
+
+**[11/1/2022 8:24:26 AM] sql query 'SHOW COLUMNS FROM store_address ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:26 AM] sql query 'SELECT * FROM store_address;' - executed (DONE);
+
+
+*[11/1/2022 8:24:26 AM] Connection closed;
+
+
+[11/1/2022 8:24:26 AM] Table changed;
+
+
+*[11/1/2022 8:24:26 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:26 AM] New connection;
+
+
+**[11/1/2022 8:24:26 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_city'' - executed (DONE);
+
+
+**[11/1/2022 8:24:26 AM] sql query 'SHOW COLUMNS FROM store_city ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:26 AM] sql query 'SELECT * FROM store_city;' - executed (DONE);
+
+
+*[11/1/2022 8:24:26 AM] Connection closed;
+
+
+[11/1/2022 8:24:26 AM] Table changed;
+
+
+*[11/1/2022 8:24:27 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:27 AM] New connection;
+
+
+**[11/1/2022 8:24:27 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_country'' - executed (DONE);
+
+
+**[11/1/2022 8:24:27 AM] sql query 'SHOW COLUMNS FROM store_country ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:27 AM] sql query 'SELECT * FROM store_country;' - executed (DONE);
+
+
+*[11/1/2022 8:24:27 AM] Connection closed;
+
+
+[11/1/2022 8:24:27 AM] Table changed;
+
+
+*[11/1/2022 8:24:28 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:28 AM] New connection;
+
+
+**[11/1/2022 8:24:28 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_phone'' - executed (DONE);
+
+
+**[11/1/2022 8:24:28 AM] sql query 'SHOW COLUMNS FROM store_phone ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:28 AM] sql query 'SELECT * FROM store_phone;' - executed (DONE);
+
+
+*[11/1/2022 8:24:28 AM] Connection closed;
+
+
+[11/1/2022 8:24:28 AM] Table changed;
+
+
+*[11/1/2022 8:24:28 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:28 AM] New connection;
+
+
+**[11/1/2022 8:24:28 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_schedule_open'' - executed (DONE);
+
+
+**[11/1/2022 8:24:28 AM] sql query 'SHOW COLUMNS FROM store_schedule_open ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:28 AM] sql query 'SELECT * FROM store_schedule_open;' - executed (DONE);
+
+
+*[11/1/2022 8:24:28 AM] Connection closed;
+
+
+[11/1/2022 8:24:28 AM] Table changed;
+
+
+*[11/1/2022 8:24:28 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:28 AM] New connection;
+
+
+**[11/1/2022 8:24:28 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'week_day'' - executed (DONE);
+
+
+**[11/1/2022 8:24:28 AM] sql query 'SHOW COLUMNS FROM week_day ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:28 AM] sql query 'SELECT * FROM week_day;' - executed (DONE);
+
+
+*[11/1/2022 8:24:28 AM] Connection closed;
+
+
+[11/1/2022 8:24:28 AM] Table changed;
+
+
+*[11/1/2022 8:24:29 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:29 AM] New connection;
+
+
+**[11/1/2022 8:24:29 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'work_position'' - executed (DONE);
+
+
+**[11/1/2022 8:24:29 AM] sql query 'SHOW COLUMNS FROM work_position ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:29 AM] sql query 'SELECT * FROM work_position;' - executed (DONE);
+
+
+*[11/1/2022 8:24:29 AM] Connection closed;
+
+
+[11/1/2022 8:24:29 AM] Table changed;
+
+
+*[11/1/2022 8:24:29 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:29 AM] New connection;
+
+
+**[11/1/2022 8:24:29 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'week_day'' - executed (DONE);
+
+
+**[11/1/2022 8:24:29 AM] sql query 'SHOW COLUMNS FROM week_day ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:29 AM] sql query 'SELECT * FROM week_day;' - executed (DONE);
+
+
+*[11/1/2022 8:24:29 AM] Connection closed;
+
+
+[11/1/2022 8:24:29 AM] Table changed;
+
+
+*[11/1/2022 8:24:30 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:30 AM] New connection;
+
+
+**[11/1/2022 8:24:30 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_schedule_open'' - executed (DONE);
+
+
+**[11/1/2022 8:24:30 AM] sql query 'SHOW COLUMNS FROM store_schedule_open ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:30 AM] sql query 'SELECT * FROM store_schedule_open;' - executed (DONE);
+
+
+*[11/1/2022 8:24:30 AM] Connection closed;
+
+
+[11/1/2022 8:24:30 AM] Table changed;
+
+
+*[11/1/2022 8:24:30 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:30 AM] New connection;
+
+
+**[11/1/2022 8:24:30 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_phone'' - executed (DONE);
+
+
+**[11/1/2022 8:24:30 AM] sql query 'SHOW COLUMNS FROM store_phone ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:30 AM] sql query 'SELECT * FROM store_phone;' - executed (DONE);
+
+
+*[11/1/2022 8:24:30 AM] Connection closed;
+
+
+[11/1/2022 8:24:30 AM] Table changed;
+
+
+*[11/1/2022 8:24:30 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:30 AM] New connection;
+
+
+**[11/1/2022 8:24:30 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_country'' - executed (DONE);
+
+
+**[11/1/2022 8:24:30 AM] sql query 'SHOW COLUMNS FROM store_country ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:30 AM] sql query 'SELECT * FROM store_country;' - executed (DONE);
+
+
+*[11/1/2022 8:24:30 AM] Connection closed;
+
+
+[11/1/2022 8:24:30 AM] Table changed;
+
+
+*[11/1/2022 8:24:31 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:31 AM] New connection;
+
+
+**[11/1/2022 8:24:31 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_address'' - executed (DONE);
+
+
+**[11/1/2022 8:24:31 AM] sql query 'SHOW COLUMNS FROM store_address ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:31 AM] sql query 'SELECT * FROM store_address;' - executed (DONE);
+
+
+*[11/1/2022 8:24:31 AM] Connection closed;
+
+
+[11/1/2022 8:24:31 AM] Table changed;
+
+
+*[11/1/2022 8:24:31 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:31 AM] New connection;
+
+
+**[11/1/2022 8:24:31 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_city'' - executed (DONE);
+
+
+**[11/1/2022 8:24:31 AM] sql query 'SHOW COLUMNS FROM store_city ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:31 AM] sql query 'SELECT * FROM store_city;' - executed (DONE);
+
+
+*[11/1/2022 8:24:31 AM] Connection closed;
+
+
+[11/1/2022 8:24:31 AM] Table changed;
+
+
+*[11/1/2022 8:24:32 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:32 AM] New connection;
+
+
+**[11/1/2022 8:24:32 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store_address'' - executed (DONE);
+
+
+**[11/1/2022 8:24:32 AM] sql query 'SHOW COLUMNS FROM store_address ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:32 AM] sql query 'SELECT * FROM store_address;' - executed (DONE);
+
+
+*[11/1/2022 8:24:32 AM] Connection closed;
+
+
+[11/1/2022 8:24:32 AM] Table changed;
+
+
+*[11/1/2022 8:24:32 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:32 AM] New connection;
+
+
+**[11/1/2022 8:24:32 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'store'' - executed (DONE);
+
+
+**[11/1/2022 8:24:32 AM] sql query 'SHOW COLUMNS FROM store ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:32 AM] sql query 'SELECT * FROM store;' - executed (DONE);
+
+
+*[11/1/2022 8:24:32 AM] Connection closed;
+
+
+[11/1/2022 8:24:32 AM] Table changed;
+
+
+*[11/1/2022 8:24:32 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:32 AM] New connection;
+
+
+**[11/1/2022 8:24:32 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'product'' - executed (DONE);
+
+
+**[11/1/2022 8:24:32 AM] sql query 'SHOW COLUMNS FROM product ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:32 AM] sql query 'SELECT * FROM product;' - executed (DONE);
+
+
+*[11/1/2022 8:24:32 AM] Connection closed;
+
+
+[11/1/2022 8:24:32 AM] Table changed;
+
+
+*[11/1/2022 8:24:33 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:33 AM] New connection;
+
+
+**[11/1/2022 8:24:33 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'person_sex'' - executed (DONE);
+
+
+**[11/1/2022 8:24:33 AM] sql query 'SHOW COLUMNS FROM person_sex ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:33 AM] sql query 'SELECT * FROM person_sex;' - executed (DONE);
+
+
+*[11/1/2022 8:24:33 AM] Connection closed;
+
+
+[11/1/2022 8:24:33 AM] Table changed;
+
+
+*[11/1/2022 8:24:34 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:34 AM] New connection;
+
+
+**[11/1/2022 8:24:34 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'person'' - executed (DONE);
+
+
+**[11/1/2022 8:24:34 AM] sql query 'SHOW COLUMNS FROM person ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:34 AM] sql query 'SELECT * FROM person;' - executed (DONE);
+
+
+*[11/1/2022 8:24:34 AM] Connection closed;
+
+
+[11/1/2022 8:24:34 AM] Table changed;
+
+
+*[11/1/2022 8:24:34 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:34 AM] New connection;
+
+
+**[11/1/2022 8:24:34 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'operation_type'' - executed (DONE);
+
+
+**[11/1/2022 8:24:34 AM] sql query 'SHOW COLUMNS FROM operation_type ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:34 AM] sql query 'SELECT * FROM operation_type;' - executed (DONE);
+
+
+*[11/1/2022 8:24:34 AM] Connection closed;
+
+
+[11/1/2022 8:24:34 AM] Table changed;
+
+
+*[11/1/2022 8:24:34 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:34 AM] New connection;
+
+
+**[11/1/2022 8:24:34 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'operation_product'' - executed (DONE);
+
+
+**[11/1/2022 8:24:34 AM] sql query 'SHOW COLUMNS FROM operation_product ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:34 AM] sql query 'SELECT * FROM operation_product;' - executed (DONE);
+
+
+*[11/1/2022 8:24:34 AM] Connection closed;
+
+
+[11/1/2022 8:24:34 AM] Table changed;
+
+
+*[11/1/2022 8:24:35 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:35 AM] New connection;
+
+
+**[11/1/2022 8:24:35 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'employee'' - executed (DONE);
+
+
+**[11/1/2022 8:24:35 AM] sql query 'SHOW COLUMNS FROM employee ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:35 AM] sql query 'SELECT * FROM employee;' - executed (DONE);
+
+
+*[11/1/2022 8:24:35 AM] Connection closed;
+
+
+[11/1/2022 8:24:35 AM] Table changed;
+
+
+*[11/1/2022 8:24:36 AM] Getting connection string from 'appsettings.json' (DONE);
+
+
+*[11/1/2022 8:24:36 AM] New connection;
+
+
+**[11/1/2022 8:24:36 AM] sql query 'SELECT count(*) FROM information_schema.columns WHERE table_name = 'authorization'' - executed (DONE);
+
+
+**[11/1/2022 8:24:36 AM] sql query 'SHOW COLUMNS FROM authorization ;' - executed (DONE);
+
+
+**[11/1/2022 8:24:36 AM] sql query 'SELECT * FROM authorization;' - executed (DONE);
+
+
+*[11/1/2022 8:24:36 AM] Connection closed;
+
+
+[11/1/2022 8:24:36 AM] Table changed;
+
+
